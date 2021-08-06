@@ -171,3 +171,7 @@ button, input, select, textarea {
     color: #fff !important;
     background: rgb(72, 159, 218);
 }
+
+.miHead{
+  width: 100%;
+}
