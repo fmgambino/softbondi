@@ -179,3 +179,27 @@ button, input, select, textarea {
 #miContact{
   color: #fff;
 }
+
+#logoTop{
+  
+    width: 25%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.navbar>.container, .navbar>.container-fluid #logoTop{
+  margin-top: 10px;
+  display: -ms-flexbox
+  display: flex;
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
