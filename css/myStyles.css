@@ -10,9 +10,9 @@ html,body {
   height: 100%;
 }
 
-* {
+/* { 
     -moz-box-sizing: border-box;
-}
+}*/
 
 body {
   background-color: #ededed;
@@ -38,8 +38,8 @@ a:hover,a:focus{color:#165db5;text-decoration:underline}
 
 .wrap {
   min-height: 100%;
-  .display: table;
-  .height: 100%;
+  display: table;
+  height: 100%;
 }
 
 .top-bar {
@@ -194,9 +194,9 @@ button, input, select, textarea {
 
 .navbar>.container, .navbar>.container-fluid #logoTop{
   margin-top: 10px;
-  display: -ms-flexbox
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-align: center;
   align-items: center;
