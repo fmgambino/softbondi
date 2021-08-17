@@ -411,7 +411,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  padding: 110px;
+  padding: 45px;
   background: url(../assets/img/hero-area.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -423,14 +423,15 @@ button:focus {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 50px;
+  top: 0px;
   left: 0px;
   background: var(--main--color);
   opacity: 0.9;
 }
 
 #hero-area .contents {
-  padding: 200px 0 30px;
+  padding: 250px 0 30px;
+  margin-bottom: 250px;
 }
 
 #hero-area .contents h1 {

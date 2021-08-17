@@ -424,15 +424,17 @@
      position: absolute;
      width: 100%;
      height: 100%;
-     top: 50px;
+     top: 0px;
      left: 0px;
      background: var(--main--color);
      opacity: 0.9;
    }
    
    #hero-area .contents {
-     padding: 200px 0 30px;
-   }
+    padding: 200px 0 30px;
+    margin-bottom: 200px;
+  }
+  
    
    #hero-area .contents h1 {
      color: #fff;
