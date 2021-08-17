@@ -489,11 +489,15 @@ button:focus {
   .navbar-brand {
     position: absolute;
     padding: 0px;
+    padding-right: -15px;
     top: 5px; }
   .navbar-brand img {
+    padding-right: -25px;
     width: 70%; }
   #mobile-menu {
-    display: none; }
+    display:grid;
+    padding: 15px;
+  }
   .slicknav_menu {
     display: block; }
   .slicknav_nav .active a {
