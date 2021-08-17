@@ -5,9 +5,9 @@
 * License: https://electronicagambino.com
 */
 
-@import "prueba";
-@import "navbar";
+@import "contacto";
 @import "main";
+
 
 
 html,body {
@@ -71,7 +71,7 @@ html,body {
   }
   
   .coming-soon-wrap {
-    margin-top: 90px;
+    margin-top: 10px;
   }
   
   .frowny-face {
@@ -199,8 +199,4 @@ html,body {
   z-index:100000;
 }
   
-
-#contact{
-  padding: 200px;
-}
 
