@@ -7,7 +7,7 @@
 
 @import "prueba";
 @import "navbar";
-  
+@import "main";
 
 
 html,body {
@@ -195,6 +195,12 @@ html,body {
   
   }
   
+#myButton{
+  z-index:100000;
+}
   
 
 
+#contact{
+  padding: 200px;
+}
