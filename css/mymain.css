@@ -6,10 +6,13 @@
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
 #contactForm {
-  padding: 150px;
+  padding-top: 50px;
   background: #343a40;
   color: #fff;
   position: relative; }
+
+.sectionForm {
+  padding: 15%; }
 
 /* ------------------------------------- */
 /* TABLE OF CONTENTS
@@ -495,9 +498,8 @@ button:focus {
     padding-right: -25px;
     width: 70%; }
   #mobile-menu {
-    display:grid;
-    padding: 15px;
-  }
+    display: grid;
+    padding: 15px; }
   .slicknav_menu {
     display: block; }
   .slicknav_nav .active a {
@@ -1013,12 +1015,6 @@ button:focus {
   color: #fff;
   position: relative; }
 
-#contactForm {
-  padding: 150px;
-  background: #343a40;
-  color: #fff;
-  position: relative; }
-
 .form-control {
   width: 100%;
   margin-bottom: 10px;
@@ -1084,6 +1080,15 @@ footer {
 
 .copyright p a:hover {
   color: var(--main--color); }
+
+#contactForm {
+  padding-top: 50px;
+  background: #343a40;
+  color: #fff;
+  position: relative; }
+
+.sectionForm {
+  padding: 15%; }
 
 html, body {
   height: 100%; }

@@ -6,10 +6,14 @@
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
 #contactForm {
-  padding: 150px;
+  padding-top: 50px;
   background: #343a40;
   color: #fff;
   position: relative;
+}
+
+.sectionForm {
+  padding: 15%;
 }
 
 /* ------------------------------------- */
@@ -568,18 +572,22 @@ button:focus {
 
 @media screen and (max-width: 768px) {
   .navbar-header {
-    width: 30%;
+    width: 100%;
   }
   .navbar-brand {
     position: absolute;
     padding: 0px;
+    padding-right: -15px;
     top: 5px;
   }
   .navbar-brand img {
-    width: 57%;
+    padding-right: -25px;
+    width: 70%;
   }
   #mobile-menu {
-    display: none;
+    display: -ms-grid;
+    display: grid;
+    padding: 15px;
   }
   .slicknav_menu {
     display: block;
@@ -1187,13 +1195,6 @@ button:focus {
   position: relative;
 }
 
-#contactForm {
-  padding: 150px;
-  background: #343a40;
-  color: #fff;
-  position: relative;
-}
-
 .form-control {
   width: 100%;
   margin-bottom: 10px;
@@ -1272,6 +1273,17 @@ footer {
 
 .copyright p a:hover {
   color: var(--main--color);
+}
+
+#contactForm {
+  padding-top: 50px;
+  background: #343a40;
+  color: #fff;
+  position: relative;
+}
+
+.sectionForm {
+  padding: 15%;
 }
 
 html, body {

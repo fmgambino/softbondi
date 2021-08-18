@@ -565,20 +565,21 @@
    }
    
    @media screen and (max-width: 768px) {
-     .navbar-header {
-       width: 30%;
-     }
-     .navbar-brand {
-       position: absolute;
-       padding: 0px;
-       top: 5px;
-     }
-     .navbar-brand img {
-       width: 57%;
-     }
-     #mobile-menu {
-       display: none;
-     }
+    .navbar-header {
+      width: 100%; }
+    .navbar-brand {
+      position: absolute;
+      padding: 0px;
+      padding-right: -15px;
+      top: 5px; }
+    .navbar-brand img {
+      padding-right: -25px;
+      width: 70%; }
+    #mobile-menu {
+      display:grid;
+      padding: 15px;
+    }
+
      .slicknav_menu {
        display: block;
      }
@@ -1192,14 +1193,7 @@
      color: #fff;
      position: relative;
    }
-   
-   #contactForm {
-     padding: 150px;
-     background: #343a40;
-     color: #fff;
-     position: relative;
-   }
-   
+      
    .form-control {
      width: 100%;
      margin-bottom: 10px;
